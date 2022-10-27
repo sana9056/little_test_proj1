@@ -30,7 +30,6 @@ class SearchTest(unittest.TestCase):
         self.assertEqual('6 мес по 255,66 руб/мес', products2)
         print("          ")
         print("Выбран", products, "По условиям:", products2)
-        self.driver.close()
 
     def tearDown(self):
         self.driver.close()
